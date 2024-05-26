@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lux Peri</title>
+    <link rel="stylesheet" href="styles/styles.css">*
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <link rel="stylesheet" href="styles/carritoCompra.css">
+    <link rel="icon" href="media/favicon.png" type="image/x-icon">
+</head>
+
+<body>
+    <header>
+        <img src="media/banner.png" alt="banner">
+        <nav>
+            <a href="index.html" class="buttonNav button">Inicio</a>
+            <a href="productos.html" class="buttonNav button">Productos</a>
+            <a href="about.html" class="buttonNav button">Sobre nosotros</a>
+            <a href="contact.html" class="buttonNav button">Contacto</a>
+            <button class="buttonNav" id="cartButton">Carrito de Compras</button>
+        </nav>
+    </header>
+
+    <main>
+        <section class="aboutCard welcome">
+            <h1>Hola! <br>Bienvenido a LuxPeri! <br> Tu tienda de componentes electronicos favorito, tenemos los mejores
+                componentes, al mejor precio, tambien tenemos combos de actualizacion super economicos, aqui abajo te
+                dejamos los productos mas vendidos del mes</h1>
+        </section>
+        <section id="destacados">
+            <!--<div class="columnas" id="mouse">
+                <h3>Productos destacados</h3>
+                <ul>
+                    <li class="product">
+                        <h4>Razer Black Widow BlackWidow V3</h4>
+                        <img src="media/razer1.jpg" alt="Razer Black Widow BlackWidow V3">
+                        <p>Precio: $165000</p>
+                        <p class="descrip">Descripcion: Teclado gamer QWERTY español España color negro con luz RGB</p>
+                        <button class="add-to-cart" data-name="Razer Black Widow BlackWidow V3"
+                            data-price="165000">Agregar 🛒</button>
+                    </li>
+
+                    <li class="product">
+                        <h4>Monitor Gamer Samsung 27" G5 Odyssey</h4>
+                        <img src="media/moni3.jpg" alt="Monitor Gamer Samsung 27 G5 Odyssey">
+                        <p>Precio: $485676</p>
+                        <p class="descrip">Descripcion: Curvo 165Hz 2K QHD VA FreeSync</p>
+                        <button class="add-to-cart" data-name="Monitor Gamer Samsung 27 G5 Odyssey"
+                            data-price="485676">Agregar 🛒</button>
+                    </li>
+
+                    <li class="product">
+                        <h4>Auriculares ASUS TUF H1</h4>
+                        <img src="media/auris3.jpg" alt="Auriculares ASUS TUF H1">
+                        <p>Precio: $163555</p>
+                        <p class="descrip">Descripcion: Auriculares ASUS TUF H1 Gaming 7.1 Wireless</p>
+                        <button class="add-to-cart" data-name="Auriculares ASUS TUF H1" data-price="163555">Agregar
+                            🛒</button>
+                    </li>
+
+                    <li class="product">
+                        <h4>Mouse Cougar Surpassion RX</h4>
+                        <img src="media/mouse3.jpg" alt="Mouse Cougar Surpassion RX">
+                        <p>Precio: $70000</p>
+                        <p class="descrip">Descripcion: Mouse Cougar Surpassion RX Wireless RGB</p>
+                        <button class="add-to-cart" data-name="Mouse Cougar Surpassion RX Wireless RGB"
+                            data-price="70000">Agregar 🛒</button>
+                    </li>
+
+                    <li class="product">
+                        <h4>Combo 5</h4>
+                        <img src="media/combo5.jpg" alt="Combo 5">
+                        <p>Precio: $222380</p>
+                        <p class="descrip">Descripcion: Kit Mother MSI H510M PLUS V3 + Procesador Intel Core i5 10400F
+                            4.3GHz Turbo (Sin
+                            Video Integrado)</p>
+                        <button class="add-to-cart" data-name="Combo 5" data-price="222380">Agregar 🛒</button>
+                    </li>
+
+                    <li class="product">
+                        <h4>Combo 1</h4>
+                        <img src="media/combo1.jpg" alt="Combo 1">
+                        <p>Precio: $490000</p>
+                        <p class="descrip">Descripcion: Kit Mother ASUS TUF B660M-PLUS WIFI D4 + Procesador Intel Core
+                            I5 12400F 4.4GHz
+                            Turbo (Sin Video Integrado) + Memoria Team DDR4 16GB 3200Mhz Vulcan ASUS TUF Certificate</p>
+                        <button class="add-to-cart" data-name="Combo 1" data-price="490000">Agregar 🛒</button>
+                    </li>
+                </ul>
+            </div>-->
+
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <h4>Razer Black Widow BlackWidow V3</h4>
+                        <img src="media/razer1.jpg" alt="Razer Black Widow BlackWidow V3">
+                        <p>Precio: $165000</p>
+                        <p class="descrip">Descripcion: Teclado gamer QWERTY español España color negro con luz RGB</p>
+                        <button class="add-to-cart" data-name="Razer Black Widow BlackWidow V3"
+                            data-price="165000">Agregar 🛒</button>
+                    </div>
+                    <div class="swiper-slide">
+                        <h4>Monitor Gamer Samsung 27" G5 Odyssey</h4>
+                        <img src="media/moni3.jpg" alt="Monitor Gamer Samsung 27 G5 Odyssey">
+                        <p>Precio: $485676</p>
+                        <p class="descrip">Descripcion: Curvo 165Hz 2K QHD VA FreeSync</p>
+                        <button class="add-to-cart" data-name="Monitor Gamer Samsung 27 G5 Odyssey"
+                            data-price="485676">Agregar 🛒</button>
+                    </div>
+                    <div class="swiper-slide">
+                        <h4>Auriculares ASUS TUF H1</h4>
+                        <img src="media/auris3.jpg" alt="Auriculares ASUS TUF H1">
+                        <p>Precio: $163555</p>
+                        <p class="descrip">Descripcion: Auriculares ASUS TUF H1 Gaming 7.1 Wireless</p>
+                        <button class="add-to-cart" data-name="Auriculares ASUS TUF H1" data-price="163555">Agregar
+                            🛒</button>
+                    </div>
+                    <div class="swiper-slide">
+                        <h4>Mouse Cougar Surpassion RX</h4>
+                        <img src="media/mouse3.jpg" alt="Mouse Cougar Surpassion RX">
+                        <p>Precio: $70000</p>
+                        <p class="descrip">Descripcion: Mouse Cougar Surpassion RX Wireless RGB</p>
+                        <button class="add-to-cart" data-name="Mouse Cougar Surpassion RX Wireless RGB"
+                            data-price="70000">Agregar 🛒</button>
+                    </div>
+                    <div class="swiper-slide">
+                        <h4>Combo 5</h4>
+                        <img src="media/combo5.jpg" alt="Combo 5">
+                        <p>Precio: $222380</p>
+                        <p class="descrip">Descripcion: Kit Mother MSI H510M PLUS V3 + Procesador Intel Core i5 10400F
+                            4.3GHz Turbo (Sin
+                            Video Integrado)</p>
+                        <button class="add-to-cart" data-name="Combo 5" data-price="222380">Agregar 🛒</button>
+                    </div>
+                    <div class="swiper-slide">
+                        <h4>Combo 1</h4>
+                        <img src="media/combo1.jpg" alt="Combo 1">
+                        <p>Precio: $490000</p>
+                        <p class="descrip">Descripcion: Kit Mother ASUS TUF B660M-PLUS WIFI D4 + Procesador Intel Core
+                            I5 12400F 4.4GHz
+                            Turbo (Sin Video Integrado) + Memoria Team DDR4 16GB 3200Mhz Vulcan ASUS TUF Certificate</p>
+                        <button class="add-to-cart" data-name="Combo 1" data-price="490000">Agregar 🛒</button>
+                    </div>
+                </div>
+                <!-- Add Pagination -->
+                <div class="swiper-pagination"></div>
+                <!-- Add Navigation -->
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+            </div>
+
+        </section>
+        <script src="js/scriptCarrito.js"></script>
+    </main>
+
+
+    <div id="cartPopup" class="cart-popup">
+        <div class="cart-content">
+            <span class="close-btn" id="closeCart">&times;</span>
+            <h2>Carrito de Compras</h2>
+            <ul id="cartItems">
+                <!-- Aquí se añadirán los productos -->
+            </ul>
+            <p id="totalPrice">Total: $0.00</p>
+            <button id="checkoutButton">Proceder al Pago</button>
+        </div>
+    </div>
+
+
+    <footer>
+        <p>Derechos Reservados &copy; 2024</p>
+    </footer>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="js/scriptCarousel.js"></script>
+</body>
+
+</html>

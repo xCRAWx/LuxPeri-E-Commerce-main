@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lux Peri</title>
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="styles/carritoCompra.css">
+    <link rel="icon" href="media/favicon.png" type="image/x-icon">
+</head>
+
+<body>
+    <header>
+        <img src="media/banner.png" alt="banner">
+        <nav>
+            <a href="index.html" class="buttonNav button">Inicio</a>
+            <a href="productos.html" class="buttonNav button">Productos</a>
+            <a href="about.html" class="buttonNav button">Sobre nosotros</a>
+            <a href="contact.html" class="buttonNav button">Contacto</a>
+            <button class="buttonNav" id="cartButton">Carrito de Compras</button>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <div class="columnas">
+                <h3>COMBOS</h3>
+                <ul>
+                    <li>
+                        <h4>Combo 1</h4>
+                        <img src="media/combo1.jpg" alt="Combo 1">
+                        <p>Precio: $490000</p>
+                        <p class="descrip">Descripcion: Kit Mother ASUS TUF B660M-PLUS WIFI D4 + Procesador Intel Core
+                            I5 12400F 4.4GHz
+                            Turbo (Sin Video Integrado) + Memoria Team DDR4 16GB 3200Mhz Vulcan ASUS TUF Certificate</p>
+                        <button class="add-to-cart" data-name="Combo1" data-price="490000">Agregar 🛒</button>
+                    </li>
+
+                    <li>
+                        <h4>Combo 2</h4>
+                        <img src="media/combo2.jpg" alt="Combo2">
+                        <p>Precio: $140000</p>
+                        <p class="descrip">Descripcion: Kit Mother Asus A320M-K PRIME + Procesador Athlon 3000 3.5GHz
+                        </p>
+                        <button class="add-to-cart" data-name="Combo 2" data-price="140000">Agregar 🛒</button>
+                    </li>
+
+                    <li>
+                        <h4>Combo 3</h4>
+                        <img src="media/combo3.jpg" alt="Combo 3">
+                        <p>Precio: $215000</p>
+                        <p class="descrip">Descripcion: Kit AMD RYZEN 5 3600 + Mother Asrock B450M-HDV</p>
+                        <button class="add-to-cart" data-name="Combo 3" data-price="215000">Agregar 🛒</button>
+                    </li>
+
+                    <li>
+                        <h4>Combo 4</h4>
+                        <img src="media/combo4.jpg" alt="Combo 4">
+                        <p>Precio: $175000</p>
+                        <p class="descrip">Descripcion: KIT AMD RYZEN 3 3200G + Radeon Vega 8 + Mother Asrock B450M-HDV
+                        </p>
+                        <button class="add-to-cart" data-name="Combo 4" data-price="175000">Agregar 🛒</button>
+                    </li>
+
+                    <li>
+                        <h4>Combo 5</h4>
+                        <img src="media/combo5.jpg" alt="Combo 5">
+                        <p>Precio: $222380</p>
+                        <p class="descrip">Descripcion: Kit Mother MSI H510M PLUS V3 + Procesador Intel Core i5 10400F
+                            4.3GHz Turbo (Sin
+                            Video Integrado)</p>
+                        <button class="add-to-cart" data-name="Combo 5" data-price="222380">Agregar 🛒</button>
+                    </li>
+
+                    <li>
+                        <h4>Combo 6</h4>
+                        <img src="media/combo6.jpg" alt="Combo 6">
+                        <p>Precio: $169000</p>
+                        <p class="descrip">Descripcion: Kit Mother MSI H510M PLUS V3 + Procesador Intel Core i3 10105F
+                            4.3GHz Turbo (Sin
+                            Video Integrado)</p>
+                        <button class="add-to-cart" data-name="Combo 6" data-price="169000">Agregar 🛒</button>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <div class="columnas" id="mouse">
+            <h3>MOUSE</h3>
+            <ul>
+                <li>
+                    <h4>ASUS ROG P507</h4>
+                    <img src="media/mouse1.jpg" alt="Asus ROG P507">
+                    <p>Precio: $62000</p>
+                    <p class="descrip">Descripcion: Mouse gamer Gladius II Core RGB</p>
+                    <button class="add-to-cart" data-name="Mouse ASUS ROG P507" data-price="62000">Agregar 🛒</button>
+                </li>
+
+                <li>
+                    <h4>Hyperx Pulsefire Haste 2</h4>
+                    <img src="media/mouse2.jpg" alt="Hyperx Pulsefire Haste 2">
+                    <p>Precio: $65000</p>
+                    <p class="descrip">Descripcion: Mouse gamer HyperX color negro</p>
+                    <button class="add-to-cart" data-name="Mouse Hyperx Pulsefire Haste 2" data-price="65000">Agregar
+                        🛒</button>
+                </li>
+
+                <li>
+                    <h4>Cougar Surpassion RX</h4>
+                    <img src="media/mouse3.jpg" alt="Cougar Surpassion RX">
+                    <p>Precio: $70000</p>
+                    <p class="descrip">Descripcion: Mouse Cougar Surpassion RX Wireless RGB
+                    </p>
+                    <button class="add-to-cart" data-name="Mouse Cougar Surpassion RX" data-price="70000">Agregar
+                        🛒</button>
+                </li>
+
+                <li>
+                    <h4>Logitech G502</h4>
+                    <img src="media/mouse4.jpg" alt="Logitech G502">
+                    <p>Precio: $65000</p>
+                    <p class="descrip">Descripcion:Logitech G502 High Performance Hero KDA</p>
+                    <button class="add-to-cart" data-name="Mouse Logitech G502" data-price="65000">Agregar 🛒</button>
+                </li>
+
+                <li>
+                    <h4>Cougar 700M EVO</h4>
+                    <img src="media/mouse5.jpg" alt="Cougar 700M EVO">
+                    <p>Precio: $80000</p>
+                    <p class="descrip">Descripcion: Cougar 700M EVO Esports RGB</p>
+                    <button class="add-to-cart" data-name="Mouse Cougar 700M EVO" data-price="80000">Agregar 🛒</button>
+                </li>
+
+                <li>
+                    <h4>ASUS TUF Gaming M4</h4>
+                    <img src="media/mouse6.jpg" alt="ASUS TUF Gaming M4">
+                    <p>Precio: $79000</p>
+                    <p class="descrip">Descripcion: ASUS TUF Gaming M4 Bluetooth Wireless</p>
+                    <button class="add-to-cart" data-name="Mouse ASUS TUF Gaming M4" data-price="79000">Agregar 🛒</button>
+                </li>
+            </ul>
+        </div>
+        <div class="columnas" id="teclado">
+            <h3>TECLADO</h3>
+            <ul>
+                <li>
+                    <h4>Razer Black Widow BlackWidow V3</h4>
+                    <img src="media/razer1.jpg" alt="Razer Black Widow BlackWidow V3">
+                    <p>Precio: $165000</p>
+                    <p class="descrip">Descripcion: Teclado gamer QWERTY español España color negro con luz RGB</p>
+                    <button class="add-to-cart" data-name="Teclado Razer Black Widow BlackWidow V3" data-price="165000">Agregar
+                        🛒</button>
+                </li>
+
+                <li>
+                    <h4>Razer Huntsman Mini</h4>
+                    <img src="media/razer2.jpg" alt="Razer Huntsman Mini">
+                    <p>Precio: $79230</p>
+                    <p class="descrip">Descripcion: Teclado gamer QWERTY inglés US color mercury con luz RGB</p>
+                    <button class="add-to-cart" data-name="Teclado Razer Huntsman Mini" data-price="79230">Agregar 🛒</button>
+                </li>
+
+                <li>
+                    <h4>Razer Huntsman V2 Tenkeyless Quartz</h4>
+                    <img src="media/razer3.jpg" alt="Razer Huntsman V2 Tenkeyless Quartz">
+                    <p>Precio: $85420</p>
+                    <p class="descrip">Descripcion: Teclado Gamer Inglés F Color del teclado Rosa Idioma Inglés US</p>
+                    <button class="add-to-cart" data-name="Teclado Razer Huntsman V2 Tenkeyless Quartz"
+                        data-price="85420">Agregar 🛒</button>
+                </li>
+
+                <li>
+                    <h4>Redragon Kumara K552</h4>
+                    <img src="media/redragon.jpg" alt="Redragon Kumara K552">
+                    <p>Precio: $75400</p>
+                    <p class="descrip">Descripcion: Teclado gamer QWERTY español latinoamérica color blanco con luz RGB
+                    </p>
+                    <button class="add-to-cart" data-name="Teclado Redragon Kumara K552" data-price="75400">Agregar 🛒</button>
+                </li>
+
+                <li>
+                    <h4>Redragon Shiva K512</h4>
+                    <img src="media/redragon4.jpg" alt="Redragon Shiva K512">
+                    <p>Precio: $82500</p>
+                    <p class="descrip">Descripcion: Teclado gamer RGB QWERTY español latinoamérica color negro con luz
+                        RGB</p>
+                    <button class="add-to-cart" data-name="Teclado Redragon Shiva K512" data-price="82500">Agregar 🛒</button>
+                </li>
+
+                <li>
+                    <h4>Redragon Fizz Pro K616-RGB</h4>
+                    <img src="media/redregon3.jpg" alt="Redragon Fizz Pro K616-RGB">
+                    <p>Precio: $76520</p>
+                    <p class="descrip">Descripcion: Teclado gamer bluetooth QWERTY inglés US color gris y blanco con luz
+                        RGB</p>
+                    <button class="add-to-cart" data-name=" Teclado Redragon Fizz Pro K616-RGB" data-price="76520">Agregar
+                        🛒</button>
+                </li>
+            </ul>
+        </div>
+        <div class="columnas" id="auriculares">
+            <h3>AURICULARES</h3>
+            <ul>
+                <li>
+                    <h4>HyperX Cloud III</h4>
+                    <img src="media/auris1.jpg" alt="HyperX Cloud III">
+                    <p>Precio: $215000</p>
+                    <p class="descrip">Descripcion: Auriculares HyperX Cloud III Black Red Wireless USB-C</p>
+                    <button class="add-to-cart" data-name="Auriculares HyperX Cloud III" data-price="215000">Agregar
+                        🛒</button>
+                </li>
+
+                <li>
+                    <h4>Logitech G733</h4>
+                    <img src="media/auris2.jpg" alt="Auriculares G733">
+                    <p>Precio: $205000</p>
+                    <p class="descrip">Descripcion: Auriculares Inalambricos Logitech G733 Lightspeed RGB Lila</p>
+                    <button class="add-to-cart" data-name="Auriculares Logitech G733" data-price="205000">Agregar 🛒</button>
+                </li>
+
+                <li>
+                    <h4>ASUS TUF H1</h4>
+                    <img src="media/auris3.jpg" alt="Auriculares ASUS TUF H1">
+                    <p>Precio: $163555</p>
+                    <p class="descrip">Descripcion: Auriculares ASUS TUF H1 Gaming 7.1 Wireless</p>
+                    <button class="add-to-cart" data-name="Auriculares ASUS TUF H1" data-price="163555">Agregar
+                        🛒</button>
+                </li>
+
+                <li>
+                    <h4>HyperX Cloud Flight</h4>
+                    <img src="media/auris4.jpg" alt="Auriculares HyperX Cloud Flight">
+                    <p>Precio: $132999</p>
+                    <p class="descrip">Descripcion: Auriculares HyperX Cloud Flight Black Wireless</p>
+                    <button class="add-to-cart" data-name="Auriculares HyperX Cloud Flight" data-price="132999">Agregar
+                        🛒</button>
+                </li>
+
+                <li>
+                    <h4>ASUS ROG Delta S</h4>
+                    <img src="media/auris5.jpg" alt="Auriculares ASUS ROG Delta S">
+                    <p>Precio: $376600</p>
+                    <p class="descrip">Descripcion: Auriculares ASUS ROG Delta S Bluetooth Wireless 7.1 PS4 PS5 PC</p>
+                    <button class="add-to-cart" data-name="Auriculares ASUS ROG Delta S" data-price="376600">Agregar
+                        🛒</button>
+                </li>
+
+                <li>
+                    <h4>ASUS ROG Theta</h4>
+                    <img src="media/auris6.jpg" alt="ASUS ROG Theta">
+                    <p>Precio: $560620</p>
+                    <p class="descrip">Descripcion: 7.1 USB-C Aura Sync RGB</p>
+                    <button class="add-to-cart" data-name="Auriculares ASUS ROG Theta" data-price="560620">Agregar
+                        🛒</button>
+                </li>
+            </ul>
+        </div>
+        <div class="columnas" id="monitor">
+            <h3>MONITOR</h3>
+            <ul>
+                <li>
+                    <h4>Monitor Smart Samsung 32" M7</h4>
+                    <img src="media/moni1.jpg" alt="Monitor Smart Samsung 32 M7">
+                    <p>Precio: $552890</p>
+                    <p class="descrip">Descripcion: 4K Apps WiFi BT HDR10 VA 60Hz</p>
+                    <button class="add-to-cart" data-name="Monitor Smart Samsung 32 M7" data-price="552890">Agregar
+                        🛒</button>
+                </li>
+
+                <li>
+                    <h4>Monitor Gamer Samsung 27" G4 Odyssey</h4>
+                    <img src="media/moni2.jpg" alt="Monitor Gamer Samsung 27 G4 Odyssey">
+                    <p>Precio: $453050</p>
+                    <p class="descrip">Descripcion: 240Hz IPS Full HD GSync FreeSync</p>
+                    <button class="add-to-cart" data-name="Monitor Gamer Samsung 27 G4 Odyssey"
+                        data-price="453050">Agregar 🛒</button>
+                </li>
+
+                <li>
+                    <h4>Monitor Gamer Samsung 27" G5 Odyssey</h4>
+                    <img src="media/moni3.jpg" alt="Monitor Gamer Samsung 27 G5 Odyssey">
+                    <p>Precio: $485676</p>
+                    <p class="descrip">Descripcion: Curvo 165Hz 2K QHD VA FreeSync</p>
+                    <button class="add-to-cart" data-name="Monitor Gamer Samsung 27 G5 Odyssey"
+                        data-price="485676">Agregar 🛒</button>
+                </li>
+
+                <li>
+                    <h4>Monitor Smart Samsung 32" M5</h4>
+                    <img src="media/moni4.jpg" alt="Monitor Smart Samsung 32 M5">
+                    <p>Precio: $380900</p>
+                    <p class="descrip">Descripcion: Full HD Apps WiFi BT HDR10 VA 60Hz</p>
+                    <button class="add-to-cart" data-name="Monitor Smart Samsung 32 M5" data-price="380900">Agregar
+                        🛒</button>
+                </li>
+
+                <li>
+                    <h4>Monitor Gamer AOC 27" G2790VX</h4>
+                    <img src="media/moni5.jpg" alt="Monitor Gamer AOC 27 G2790VX">
+                    <p>Precio: $378120</p>
+                    <p class="descrip">Descripcion: 144Hz FreeSync Premium 1ms</p>
+                    <button class="add-to-cart" data-name="Monitor Gamer AOC 27 G2790VX" data-price="378120">Agregar
+                        🛒</button>
+                </li>
+
+                <li>
+                    <h4>Monitor Gamer ASUS 24" VG248QG</h4>
+                    <img src="media/moni6.jpg" alt="Monitor Gamer ASUS 24 VG248QG">
+                    <p>Precio: $279840</p>
+                    <p class="descrip">Descripcion: Full HD 165Hz 0,5ms TN G-Sync FreeSync</p>
+                    <button class="add-to-cart" data-name="Monitor Gamer ASUS 24 VG248QG" data-price="279840">Agregar
+                        🛒</button>
+                </li>
+            </ul>
+        </div>
+        <script src="js/scriptCarrito.js"></script>
+    </main>
+    <div id="cartPopup" class="cart-popup">
+        <div class="cart-content">
+            <span class="close-btn" id="closeCart">&times;</span>
+            <h2>Carrito de Compras</h2>
+            <ul id="cartItems">
+                <!-- Aquí se añadirán los productos -->
+            </ul>
+            <p id="totalPrice">Total: $0.00</p>
+            <button id="checkoutButton">Proceder al Pago</button>
+        </div>
+    </div>
+
+    <footer>
+        <p>Derechos Reservados &copy; 2024</p>
+    </footer>
+</body>
+
+</html>
